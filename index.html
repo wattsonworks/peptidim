@@ -4,14 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>פפטידים ישראל — פפטידים למחקר ברמת מעבדה | הזמנה בוואטסאפ</title>
-<meta name="description" content="פפטידים ישראל — פפטידים למחקר ברמת מעבדה: טוהר ≥98% (HPLC), אימות במס-ספקטרומטריה, תעודת אנליזה לכל אצווה. הזמנה פשוטה ומהירה בוואטסאפ. מחקר. איכות. אמינות.">
+<meta name="description" content="פפטידים ישראל — פפטידים למחקר ברמת מעבדה: טוהר ≥98% (HPLC), אימות במס-ספקטרומטריה, תעודת אנליזה לכל אצווה. בונים סל ושולחים הזמנה בוואטסאפ. מחקר. איכות. אמינות.">
 <meta name="theme-color" content="#060a14">
-<link rel="icon" href="img/brand.jpeg">
-<link rel="apple-touch-icon" href="img/brand.jpeg">
+<link rel="icon" href="img/hero.jpg">
+<link rel="apple-touch-icon" href="img/hero.jpg">
 <meta property="og:type" content="website">
 <meta property="og:title" content="פפטידים ישראל — פפטידים למחקר ברמת מעבדה">
-<meta property="og:description" content="טוהר ≥98% · HPLC · MS · COA לכל אצווה. הזמנה מהירה בוואטסאפ.">
-<meta property="og:image" content="img/brand.jpeg">
+<meta property="og:description" content="טוהר ≥98% · HPLC · MS · COA לכל אצווה. בונים סל ושולחים בוואטסאפ.">
+<meta property="og:image" content="img/hero.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,7 +41,6 @@ a{color:inherit;text-decoration:none}
 .mono{font-family:var(--mono);font-feature-settings:"tnum"}
 sub{font-size:.66em;line-height:0}
 
-/* header */
 header{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
   background:rgba(6,10,20,.74);border-bottom:1px solid var(--line)}
 .nav{max-width:1180px;margin:0 auto;padding:11px 18px;display:flex;align-items:center;justify-content:space-between;gap:12px}
@@ -57,7 +56,6 @@ header{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backd
 .nav-wa svg{width:17px;height:17px}
 @media(min-width:720px){.chip{display:inline-block}}
 
-/* hero */
 .hero{position:relative;padding:48px 0 26px;overflow:hidden}
 #mol{position:absolute;inset:0;width:100%;height:100%;z-index:0;opacity:.55}
 .hero .wrap{z-index:2}
@@ -72,13 +70,12 @@ header{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backd
 .specstrip span{font:600 11px/1 var(--mono);letter-spacing:.5px;color:var(--steel);border:1px solid var(--line);border-radius:7px;padding:7px 10px;background:rgba(120,170,220,.04)}
 .specstrip b{color:var(--cyan)}
 .cta-row{display:flex;gap:12px;flex-wrap:wrap}
-.btn{display:inline-flex;align-items:center;gap:9px;font-weight:800;border-radius:13px;padding:14px 22px;font-size:15.5px;cursor:pointer;border:1px solid transparent;transition:transform .15s,box-shadow .15s,border-color .15s}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-weight:800;border-radius:13px;padding:14px 22px;font-size:15.5px;cursor:pointer;border:1px solid transparent;transition:transform .15s,box-shadow .15s,border-color .15s}
 .btn svg{width:19px;height:19px}
 .btn-wa{background:linear-gradient(180deg,#2bdd6e,var(--wa-deep));color:#04210f;box-shadow:0 10px 26px rgba(37,211,102,.26)}
 .btn-wa:hover{transform:translateY(-2px);box-shadow:0 14px 32px rgba(37,211,102,.36)}
 .btn-o{background:rgba(120,170,220,.05);border-color:var(--line2);color:var(--silver)}
 .btn-o:hover{border-color:var(--cyan);color:var(--ink)}
-/* hero spec frame */
 .frame{position:relative;border:1px solid var(--line2);border-radius:22px;overflow:hidden;background:#060b16;
   box-shadow:0 30px 90px rgba(0,0,0,.6),inset 0 0 0 1px rgba(76,196,238,.05)}
 .frame img{width:100%;display:block}
@@ -91,16 +88,14 @@ header{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backd
   font:600 10px/1 var(--mono);letter-spacing:1px;color:var(--cyan);padding:9px 12px;
   background:linear-gradient(0deg,rgba(6,11,22,.92),transparent)}
 
-/* ticker */
 .ticker{border-block:1px solid var(--line);background:rgba(8,16,30,.6);overflow:hidden;position:relative;z-index:1}
-.ticker-in{display:flex;gap:0;white-space:nowrap;width:max-content;animation:tick 32s linear infinite}
+.ticker-in{display:flex;white-space:nowrap;width:max-content;animation:tick 32s linear infinite}
 .ticker-in span{font:600 12px/1 var(--mono);letter-spacing:1.5px;color:var(--steel);padding:14px 26px;display:inline-flex;align-items:center;gap:10px}
 .ticker-in span::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--cyan);box-shadow:0 0 8px var(--cyan)}
 .ticker-in b{color:var(--cyan);font-weight:600}
 @keyframes tick{to{transform:translateX(50%)}}
 
-/* catalog */
-.sec{padding:30px 0 60px;position:relative;z-index:1}
+.sec{padding:30px 0 70px;position:relative;z-index:1}
 .sec-head{text-align:center;margin-bottom:6px}
 .sec-head .k{font:600 11px/1 var(--mono);letter-spacing:4px;color:var(--cyan)}
 .sec-head h2{font-size:30px;font-weight:900;margin-top:10px}
@@ -117,33 +112,62 @@ header{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backd
 .pill.on{background:linear-gradient(180deg,var(--cyan),var(--cyan-deep));border-color:transparent;color:#04141d;box-shadow:0 6px 16px rgba(76,196,238,.3)}
 .count{text-align:center;color:var(--muted2);font:500 12px/1 var(--mono);letter-spacing:1px;margin:12px 0 6px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px;margin-top:8px}
-.spec{position:relative;background:linear-gradient(160deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:16px;padding:16px 16px 15px;display:flex;flex-direction:column;gap:9px;overflow:hidden;transition:transform .15s,border-color .15s,box-shadow .15s}
+.spec{position:relative;background:linear-gradient(160deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:16px;padding:14px 14px 13px;display:flex;flex-direction:column;gap:9px;overflow:hidden;transition:transform .15s,border-color .15s,box-shadow .15s}
 .spec::after{content:"";position:absolute;inset:0;background:radial-gradient(150px 90px at 100% 0,rgba(76,196,238,.10),transparent 70%);opacity:0;transition:opacity .2s;pointer-events:none}
 .spec:hover{transform:translateY(-3px);border-color:var(--line2);box-shadow:0 18px 42px rgba(0,0,0,.5)}
 .spec:hover::after{opacity:1}
 .spec .wm{position:absolute;inset-inline-end:-14px;top:-14px;width:104px;height:104px;color:var(--cyan);opacity:.06;pointer-events:none}
-.spec-top{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.spec-top{display:flex;align-items:center;justify-content:space-between;gap:8px;z-index:1}
 .tag{font:600 10px/1 var(--mono);letter-spacing:1.4px;color:var(--steel);text-transform:uppercase}
 .pur{font:600 10px/1 var(--mono);letter-spacing:.5px;color:var(--ok);border:1px solid rgba(61,220,132,.32);background:rgba(61,220,132,.08);border-radius:6px;padding:5px 8px}
-.spec h3{font-size:18.5px;font-weight:800;line-height:1.12;letter-spacing:-.2px;z-index:1}
-.data{display:flex;flex-direction:column;gap:3px;margin:2px 0 4px;z-index:1}
-.data .d{display:flex;align-items:baseline;gap:8px;font-family:var(--mono);font-size:12px}
-.data .d .key{color:var(--cyan);font-weight:600;width:38px;flex:0 0 auto;letter-spacing:.5px}
+.struct{position:relative;background:#eef3fb;border:1px solid var(--line2);border-radius:11px;height:104px;display:flex;align-items:center;justify-content:center;overflow:hidden;z-index:1}
+.struct img{max-width:92%;max-height:92px;display:block;mix-blend-mode:multiply}
+.struct .s2dl{position:absolute;top:6px;inset-inline-start:8px;font:600 8.5px/1 var(--mono);letter-spacing:1px;color:#5a6c86}
+.spec h3{font-size:18px;font-weight:800;line-height:1.12;letter-spacing:-.2px;z-index:1}
+.data{display:flex;flex-direction:column;gap:3px;margin:1px 0 3px;z-index:1}
+.data .d{display:flex;align-items:baseline;gap:8px;font-family:var(--mono);font-size:11.5px}
+.data .d .key{color:var(--cyan);font-weight:600;width:36px;flex:0 0 auto;letter-spacing:.5px}
 .data .d .val{color:var(--silver);direction:ltr;word-break:break-all}
-.order{margin-top:auto;display:inline-flex;align-items:center;justify-content:center;gap:8px;background:linear-gradient(180deg,#2bdd6e,var(--wa-deep));color:#04210f;font-weight:800;border-radius:11px;padding:11px;font-size:14px;border:0;cursor:pointer;width:100%;transition:transform .12s,box-shadow .12s;font-family:inherit;z-index:1}
-.order svg{width:17px;height:17px}
-.order:hover{transform:translateY(-1px);box-shadow:0 8px 20px rgba(37,211,102,.3)}
+.add{margin-top:auto;display:inline-flex;align-items:center;justify-content:center;gap:8px;background:rgba(76,196,238,.1);border:1px solid var(--line2);color:var(--cyan);font-weight:800;border-radius:11px;padding:11px;font-size:14px;cursor:pointer;width:100%;transition:all .14s;font-family:inherit;z-index:1}
+.add:hover{background:rgba(76,196,238,.2);border-color:var(--cyan);color:#dff4fd}
+.step{margin-top:auto;display:flex;align-items:center;gap:0;border:1px solid var(--ok);border-radius:11px;overflow:hidden;z-index:1;background:rgba(61,220,132,.08)}
+.step .sx{flex:0 0 44px;background:rgba(61,220,132,.14);border:0;color:var(--ok);font:800 20px/1 inherit;height:42px;cursor:pointer}
+.step .sx:hover{background:rgba(61,220,132,.26)}
+.step .sq{flex:1;text-align:center;font:800 16px/1 var(--mono);color:#dff7e8}
+.step .sin{flex:0 0 auto;font:600 10px/1 var(--mono);color:var(--ok);padding:0 12px;letter-spacing:1px}
 .empty{text-align:center;color:var(--muted2);padding:40px 0;grid-column:1/-1}
 
-/* float */
-.wa-float{position:fixed;inset-inline-end:18px;bottom:calc(18px + env(safe-area-inset-bottom));z-index:60;
-  width:60px;height:60px;border-radius:50%;background:linear-gradient(180deg,#2bdd6e,var(--wa-deep));
-  display:flex;align-items:center;justify-content:center;box-shadow:0 12px 30px rgba(37,211,102,.4);animation:pulse 2.6s infinite}
-.wa-float svg{width:32px;height:32px}
-@keyframes pulse{0%{box-shadow:0 12px 30px rgba(37,211,102,.4),0 0 0 0 rgba(37,211,102,.45)}70%{box-shadow:0 12px 30px rgba(37,211,102,.4),0 0 0 16px rgba(37,211,102,0)}100%{box-shadow:0 12px 30px rgba(37,211,102,.4),0 0 0 0 rgba(37,211,102,0)}}
+/* cart fab + drawer */
+.cart-fab{position:fixed;inset-inline-end:18px;bottom:calc(18px + env(safe-area-inset-bottom));z-index:60;
+  display:inline-flex;align-items:center;gap:9px;height:58px;padding:0 20px;border-radius:30px;
+  background:linear-gradient(180deg,#2bdd6e,var(--wa-deep));color:#04210f;font-weight:800;font-size:15px;border:0;cursor:pointer;font-family:inherit;
+  box-shadow:0 14px 34px rgba(37,211,102,.42);transition:transform .15s}
+.cart-fab:hover{transform:translateY(-2px)}
+.cart-fab svg{width:24px;height:24px}
+.cart-fab .cbadge{min-width:24px;height:24px;border-radius:14px;background:#04210f;color:#7ef7b3;font:800 13px/24px var(--mono);text-align:center;padding:0 6px}
+.cart-fab.empty .cbadge{display:none}
+.overlay{position:fixed;inset:0;z-index:70;background:rgba(3,7,14,.66);backdrop-filter:blur(4px);display:none;align-items:flex-end;justify-content:center}
+.overlay.show{display:flex}
+.drawer{width:100%;max-width:540px;background:linear-gradient(180deg,var(--panel2),var(--bg2));border:1px solid var(--line2);border-bottom:0;border-radius:20px 20px 0 0;max-height:84vh;display:flex;flex-direction:column;box-shadow:0 -20px 60px rgba(0,0,0,.6)}
+.drawer-h{display:flex;align-items:center;justify-content:space-between;padding:18px 20px 12px;border-bottom:1px solid var(--line)}
+.drawer-h h3{font-size:19px;font-weight:900}
+.drawer-h .dx{background:rgba(120,170,220,.08);border:1px solid var(--line2);color:var(--silver);width:34px;height:34px;border-radius:10px;font-size:20px;cursor:pointer}
+.citems{overflow:auto;padding:10px 16px;flex:1;display:flex;flex-direction:column;gap:9px}
+.citem{display:flex;align-items:center;gap:12px;background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:11px 13px}
+.citem .ci-n{flex:1;min-width:0}
+.citem .ci-n b{display:block;font-size:15px;color:var(--ink)}
+.citem .ci-n small{font:500 11.5px/1.4 var(--mono);color:var(--steel)}
+.citem .step{margin:0;height:38px}
+.citem .step .sx{flex:0 0 36px;height:36px;font-size:18px}
+.citem .step .sq{font-size:14px;min-width:30px;flex:0 0 auto;padding:0 6px}
+.citem .crm{background:none;border:0;color:var(--muted2);font-size:20px;cursor:pointer;padding:4px}
+.citem .crm:hover{color:#e06b6b}
+.cart-empty{text-align:center;color:var(--muted2);padding:40px 16px}
+.drawer-f{padding:14px 16px calc(16px + env(safe-area-inset-bottom));border-top:1px solid var(--line);display:flex;flex-direction:column;gap:10px}
+.drawer-f .crow{display:flex;justify-content:space-between;align-items:center;font:600 12px/1 var(--mono);color:var(--steel)}
+.drawer-f .clear{background:none;border:0;color:var(--muted2);font:600 13px/1 inherit;cursor:pointer;text-decoration:underline}
 
-/* footer */
-footer{border-top:1px solid var(--line);background:rgba(5,9,18,.6);padding:38px 0 calc(34px + env(safe-area-inset-bottom));text-align:center;position:relative;z-index:1}
+footer{border-top:1px solid var(--line);background:rgba(5,9,18,.6);padding:38px 0 calc(110px + env(safe-area-inset-bottom));text-align:center;position:relative;z-index:1}
 footer .fbn{font-weight:900;font-size:22px}
 footer .fts{font:600 9.5px/1 var(--mono);letter-spacing:4px;color:var(--cyan);margin:6px 0 16px}
 .fcontact{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:16px}
@@ -164,10 +188,10 @@ footer .fts{font:600 9.5px/1 var(--mono);letter-spacing:4px;color:var(--cyan);ma
   .nav{padding:10px 12px}.brand img{width:36px;height:36px}.brand .bn{font-size:16px}
   .nav-wa{padding:8px 12px;font-size:12.5px}
   .sec-head h2{font-size:24px}
-  .grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}
-  .spec{padding:13px}.spec h3{font-size:16px}
+  .grid{grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:10px}
+  .spec{padding:12px}.spec h3{font-size:15.5px}.struct{height:92px}
 }
-@media(prefers-reduced-motion:reduce){.ticker-in,.wa-float{animation:none}}
+@media(prefers-reduced-motion:reduce){.ticker-in{animation:none}}
 </style>
 </head>
 <body>
@@ -175,14 +199,14 @@ footer .fts{font:600 9.5px/1 var(--mono);letter-spacing:4px;color:var(--cyan);ma
 <header>
   <div class="nav">
     <a class="brand" href="#">
-      <img src="img/brand.jpeg" alt="פפטידים ישראל">
+      <img src="img/hero.jpg" alt="פפטידים ישראל">
       <span><span class="bn">פפטידים ישראל</span><span class="bs">RESEARCH · QUALITY · INTEGRITY</span></span>
     </a>
     <div class="nav-right">
       <span class="chip"><i>●</i> RUO · HPLC ≥98%</span>
       <a class="nav-wa" id="navWa" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.05 24l1.7-6.2A11.9 11.9 0 1112 24a11.9 11.9 0 01-6-1.6L.05 24zM6.6 20.1l.4.2a9.9 9.9 0 005 1.4 9.9 9.9 0 10-9.9-9.9c0 1.8.5 3.5 1.4 5l.3.4-1 3.7 3.8-1zM17.5 14.3c-.1-.2-.5-.4-1-.6s-1.5-.7-1.7-.8-.4-.1-.6.1-.7.8-.8 1-.3.2-.6.1a8.1 8.1 0 01-2.4-1.5 9 9 0 01-1.7-2c-.2-.3 0-.5.1-.6l.5-.5.3-.5v-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-1 2.2c0 1.3 1 2.6 1.1 2.7s1.8 2.8 4.4 3.9c1.6.7 2.2.7 3 .6.5 0 1.5-.6 1.7-1.2s.2-1.1.1-1.2z"/></svg>
-        הזמנה
+        ייעוץ
       </a>
     </div>
   </div>
@@ -194,20 +218,20 @@ footer .fts{font:600 9.5px/1 var(--mono);letter-spacing:4px;color:var(--cyan);ma
     <div class="hero-main">
       <span class="eyebrow"><span class="pdot"></span>PEPTIDES · RESEARCH GRADE</span>
       <h1>פפטידים למחקר, <span class="g">ברמת מעבדה.</span></h1>
-      <p class="lead">מגוון רחב של פפטידים איכותיים למחקר — מאופיינים, מאומתים ומלווים בתיעוד. בוחרים מהרשימה ומזמינים ישירות בוואטסאפ.</p>
+      <p class="lead">מגוון רחב של פפטידים איכותיים למחקר — מאופיינים, מאומתים ומלווים בתיעוד. מוסיפים לסל ושולחים את ההזמנה כולה בוואטסאפ.</p>
       <div class="specstrip">
         <span>טוהר <b>≥ 98%</b></span><span>אימות <b>HPLC · MS</b></span><span><b>COA</b> לכל אצווה</span><span>אבקה <b>מיובשת</b></span><span>אחסון <b>−20°C</b></span>
       </div>
       <div class="cta-row">
+        <a class="btn btn-o" href="#catalog">לקטלוג המלא</a>
         <a class="btn btn-wa" id="heroWa" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.05 24l1.7-6.2A11.9 11.9 0 1112 24a11.9 11.9 0 01-6-1.6L.05 24zM6.6 20.1l.4.2a9.9 9.9 0 005 1.4 9.9 9.9 0 10-9.9-9.9c0 1.8.5 3.5 1.4 5l.3.4-1 3.7 3.8-1zM17.5 14.3c-.1-.2-.5-.4-1-.6s-1.5-.7-1.7-.8-.4-.1-.6.1-.7.8-.8 1-.3.2-.6.1a8.1 8.1 0 01-2.4-1.5 9 9 0 01-1.7-2c-.2-.3 0-.5.1-.6l.5-.5.3-.5v-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-1 2.2c0 1.3 1 2.6 1.1 2.7s1.8 2.8 4.4 3.9c1.6.7 2.2.7 3 .6.5 0 1.5-.6 1.7-1.2s.2-1.1.1-1.2z"/></svg>
-          דברו איתנו עכשיו
+          ייעוץ מהיר
         </a>
-        <a class="btn btn-o" href="#catalog">לקטלוג המלא</a>
       </div>
     </div>
     <div class="frame">
-      <img src="img/brand.jpeg" alt="פפטידים ישראל — מחקר. איכות. אמינות." fetchpriority="high">
+      <img src="img/hero.jpg" alt="פפטידים ישראל — מחקר. איכות. אמינות." fetchpriority="high">
       <span class="tick t1"></span><span class="tick t2"></span><span class="tick t3"></span><span class="tick t4"></span>
       <div class="read"><span>LOT · RUO</span><span id="readCount">63 COMPOUNDS</span><span>≥98% HPLC</span></div>
     </div>
@@ -220,7 +244,7 @@ footer .fts{font:600 9.5px/1 var(--mono);letter-spacing:4px;color:var(--cyan);ma
   <div class="sec-head">
     <div class="k">CATALOG · INDEX</div>
     <h2>קטלוג ה<span class="g">פפטידים</span></h2>
-    <p>בחרו מתחם ולחצו "הזמן בוואטסאפ" — נשיב עם מחיר וזמינות מיידית.</p>
+    <p>מוסיפים מתחמים לסל, ולוחצים "שלח הזמנה" — נשיב עם מחיר וזמינות מיידית.</p>
   </div>
   <div class="tools">
     <div class="search">
@@ -233,9 +257,24 @@ footer .fts{font:600 9.5px/1 var(--mono);letter-spacing:4px;color:var(--cyan);ma
   <div class="grid" id="grid"></div>
 </div></section>
 
-<a class="wa-float" id="waFloat" target="_blank" rel="noopener" aria-label="הזמנה בוואטסאפ">
-  <svg viewBox="0 0 24 24" fill="#fff"><path d="M.05 24l1.7-6.2A11.9 11.9 0 1112 24a11.9 11.9 0 01-6-1.6L.05 24zM6.6 20.1l.4.2a9.9 9.9 0 005 1.4 9.9 9.9 0 10-9.9-9.9c0 1.8.5 3.5 1.4 5l.3.4-1 3.7 3.8-1zM17.5 14.3c-.1-.2-.5-.4-1-.6s-1.5-.7-1.7-.8-.4-.1-.6.1-.7.8-.8 1-.3.2-.6.1a8.1 8.1 0 01-2.4-1.5 9 9 0 01-1.7-2c-.2-.3 0-.5.1-.6l.5-.5.3-.5v-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-1 2.2c0 1.3 1 2.6 1.1 2.7s1.8 2.8 4.4 3.9c1.6.7 2.2.7 3 .6.5 0 1.5-.6 1.7-1.2s.2-1.1.1-1.2z"/></svg>
-</a>
+<button class="cart-fab empty" id="cartFab" aria-label="סל ההזמנה">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 7h14l-1.2 11.2a2 2 0 01-2 1.8H8.2a2 2 0 01-2-1.8z"/><path d="M9 7a3 3 0 016 0"/></svg>
+  <span>הסל</span><span class="cbadge" id="cbadge">0</span>
+</button>
+
+<div class="overlay" id="overlay">
+  <div class="drawer" role="dialog" aria-label="סל ההזמנה">
+    <div class="drawer-h"><h3>סל ההזמנה <span class="mono" id="dCount" style="color:var(--cyan)"></span></h3><button class="dx" id="dClose" aria-label="סגור">&times;</button></div>
+    <div class="citems" id="citems"></div>
+    <div class="drawer-f">
+      <div class="crow"><button class="clear" id="dClear">נקה את הסל</button><span>מחירים וזמינות נמסרים בוואטסאפ</span></div>
+      <a class="btn btn-wa" id="cartSend" target="_blank" rel="noopener" style="width:100%">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.05 24l1.7-6.2A11.9 11.9 0 1112 24a11.9 11.9 0 01-6-1.6L.05 24zM6.6 20.1l.4.2a9.9 9.9 0 005 1.4 9.9 9.9 0 10-9.9-9.9c0 1.8.5 3.5 1.4 5l.3.4-1 3.7 3.8-1z"/></svg>
+        שלח הזמנה בוואטסאפ
+      </a>
+    </div>
+  </div>
+</div>
 
 <footer><div class="wrap">
   <div class="fbn">פפטידים ישראל</div>
@@ -243,19 +282,20 @@ footer .fts{font:600 9.5px/1 var(--mono);letter-spacing:4px;color:var(--cyan);ma
   <div class="fcontact">
     <a id="footWa" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.05 24l1.7-6.2A11.9 11.9 0 1112 24a11.9 11.9 0 01-6-1.6L.05 24z"/></svg>
-      WhatsApp</a>
-    <a id="footTel">טלפון</a>
+      <span></span></a>
+    <a id="footTel"></a>
     <a href="https://instagram.com/isra.peptides" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1" fill="currentColor"/></svg>
       Instagram</a>
   </div>
   <div><span class="ruo">RESEARCH USE ONLY · NOT FOR HUMAN USE</span></div>
-  <p class="disc">כל המוצרים מיועדים למחקר ולמעבדה בלבד (RUO) ואינם מיועדים לצריכה אנושית או וטרינרית או לשימוש רפואי. נתונים כימיים מובאים ממקורות ציבוריים לצרכי זיהוי; המידע אינו ייעוץ או המלצה רפואית. מחירים וזמינות נמסרים בוואטסאפ.</p>
+  <p class="disc">כל המוצרים מיועדים למחקר ולמעבדה בלבד (RUO) ואינם מיועדים לצריכה אנושית או וטרינרית או לשימוש רפואי. נתונים כימיים ומבני 2D מובאים ממקורות ציבוריים (PubChem) לצרכי זיהוי בלבד; המידע אינו ייעוץ או המלצה רפואית. מחירים וזמינות נמסרים בוואטסאפ.</p>
   <p class="disc" style="margin-top:8px">© <span id="yr"></span> פפטידים ישראל</p>
 </div></footer>
 
 <script>
-var WA="972506787586"; /* WhatsApp (050-678-7586) */
+var WA="972506653750"; /* WhatsApp / phone: 050-665-3750 */
+var TEL="+972506653750", DISP="050-665-3750";
 function waLink(msg){return "https://wa.me/"+WA+"?text="+encodeURIComponent(msg);}
 function fmt(f){return f? f.replace(/([A-Za-z\)])(\d+)/g,'$1<sub>$2</sub>') : '';}
 function mwShort(w){if(!w)return '';return w.replace('approx ','≈ ').replace(/\s*\(.*$/,'').replace(/·.*/,'').trim();}
@@ -268,76 +308,76 @@ var CATS=[
 var CATHE={gh:"GROWTH HORMONE",metabolic:"METABOLIC",recovery:"RECOVERY",longevity:"LONGEVITY",cognitive:"NEURO",immune:"IMMUNE",skin:"SKIN",melano:"MELANOCORTIN",ancillary:"ANCILLARY"};
 
 var P=[
-{"id":"bpc157","n":"BPC-157","mg":"10 MG","c":"recovery","f":"C62H98N16O22","w":"1419.55"},
-{"id":"tb500","n":"TB-500","mg":"5 MG","c":"recovery","f":"C38H68N10O14","w":"889.02"},
-{"id":"cjc1295","n":"CJC-1295 + Ipamorelin","mg":"5 MG","c":"gh","f":"","w":""},
-{"id":"epitalon","n":"Epitalon","mg":"10 MG","c":"longevity","f":"C14H22N4O9","w":"390.35"},
-{"id":"motsc","n":"MOTS-c","mg":"10 MG","c":"metabolic","f":"C101H152N28O22S2","w":"2174.62"},
-{"id":"kpv","n":"KPV","mg":"5 MG","c":"recovery","f":"C16H30N4O4","w":"342.44"},
-{"id":"ll37","n":"LL37","mg":"5 MG","c":"immune","f":"","w":"≈ 4493"},
-{"id":"ghkcu","n":"GHK-Cu","mg":"5 / 100 MG","c":"skin","f":"C14H22CuN6O4","w":"340.4"},
-{"id":"semax","n":"SEMAX","mg":"10 MG","c":"cognitive","f":"C37H51N9O10S","w":"813.93"},
-{"id":"tesamorelin","n":"Tesamorelin","mg":"10 MG","c":"gh","f":"C221H366N72O67S","w":"5135.9"},
-{"id":"retatrutide","n":"Retatrutide","mg":"5 / 10 / 20 MG","c":"metabolic","f":"","w":"4731.4"},
-{"id":"thymosina1","n":"Thymosin Alpha-1","mg":"5 / 10 MG","c":"immune","f":"C129H215N33O55","w":"3108.3"},
-{"id":"mt2","n":"MT-2 (Melanotan II)","mg":"10 MG","c":"melano","f":"C50H69N15O9","w":"1024.18"},
-{"id":"mt1","n":"MT-1 (Melanotan I)","mg":"10 MG","c":"melano","f":"C78H111N21O19","w":"1646.87"},
-{"id":"pt141","n":"PT-141 (Bremelanotide)","mg":"10 MG","c":"melano","f":"C50H68N14O10","w":"1025.2"},
-{"id":"ghrp2","n":"GHRP-2","mg":"10 MG","c":"gh","f":"C45H55N9O6","w":"817.96"},
-{"id":"ghrp6","n":"GHRP-6","mg":"10 MG","c":"gh","f":"C46H56N12O6","w":"873.01"},
-{"id":"ipamorelin","n":"Ipamorelin","mg":"10 MG","c":"gh","f":"C38H49N9O5","w":"711.86"},
-{"id":"hgh","n":"HGH 191AA (Somatropin)","mg":"15 IU","c":"gh","f":"","w":"≈ 22,124"},
-{"id":"igf1","n":"IGF-1 LR3","mg":"0.1 MG","c":"gh","f":"C400H625N111O115S9","w":"9117.6"},
-{"id":"kisspeptin","n":"Kisspeptin-10","mg":"10 MG","c":"gh","f":"","w":"≈ 1302.5"},
-{"id":"selank","n":"Selank","mg":"10 / 30 MG","c":"cognitive","f":"C33H57N11O9","w":"751.9"},
-{"id":"glutathione","n":"Glutathione","mg":"600 MG","c":"longevity","f":"C10H17N3O6S","w":"307.32"},
-{"id":"bacwater","n":"Bacteriostatic Water","mg":"3 / 10 ML","c":"ancillary","f":"","w":""},
-{"id":"lemonbottle","n":"Lemon Bottle","mg":"10 ML","c":"ancillary","f":"","w":""},
-{"id":"semaglutide","n":"Semaglutide","mg":"5 / 10 / 15 / 20 / 30 MG","c":"metabolic","f":"C187H291N45O59","w":"4113.64"},
-{"id":"tirzepatide","n":"Tirzepatide","mg":"5 - 120 MG","c":"metabolic","f":"C225H348N48O68","w":"4813.5"},
-{"id":"cagrilintide","n":"Cagrilintide","mg":"5 / 10 MG","c":"metabolic","f":"C194H312N54O59S2","w":"4396"},
-{"id":"survodutide","n":"Survodutide","mg":"10 MG","c":"metabolic","f":"C192H289N47O61","w":"4231.7"},
-{"id":"mazdutide","n":"Mazdutide","mg":"5 / 10 MG","c":"metabolic","f":"","w":""},
-{"id":"aod9604","n":"AOD-9604","mg":"2 / 5 / 10 MG","c":"metabolic","f":"C78H123N23O23S2","w":"1815.10"},
-{"id":"adipotide","n":"Adipotide (FTPP)","mg":"5 MG","c":"metabolic","f":"","w":""},
-{"id":"sermorelin","n":"Sermorelin","mg":"5 / 10 MG","c":"gh","f":"C149H246N44O42S","w":"3357.9"},
-{"id":"hexarelin","n":"Hexarelin","mg":"5 MG","c":"gh","f":"C47H58N12O6","w":"887.0"},
-{"id":"cjc1295dac","n":"CJC-1295 (DAC)","mg":"2 / 5 MG","c":"gh","f":"C165H269N51O50","w":"3647.1"},
-{"id":"mgf","n":"MGF","mg":"2 MG","c":"gh","f":"","w":""},
-{"id":"pegmgf","n":"PEG-MGF","mg":"2 MG","c":"gh","f":"","w":""},
-{"id":"igfdes","n":"IGF-DES","mg":"2 MG","c":"gh","f":"","w":""},
-{"id":"hghfrag","n":"HGH Fragment 176-191","mg":"5 MG","c":"gh","f":"","w":"1817.1"},
-{"id":"nadplus","n":"NAD+","mg":"100 / 500 / 1000 MG","c":"longevity","f":"C21H27N7O14P2","w":"663.43"},
-{"id":"ss31","n":"SS-31 (Elamipretide)","mg":"10 / 50 MG","c":"longevity","f":"C32H49N9O5","w":"639.8"},
-{"id":"foxo4","n":"FOXO4-DRI","mg":"10 MG","c":"longevity","f":"","w":""},
-{"id":"thymalin","n":"Thymalin","mg":"10 MG","c":"longevity","f":"","w":""},
-{"id":"pinealon","n":"Pinealon","mg":"5 / 10 / 20 MG","c":"longevity","f":"","w":""},
-{"id":"vilon","n":"Vilon","mg":"20 MG","c":"longevity","f":"","w":""},
-{"id":"melatonin","n":"Melatonin","mg":"10 MG","c":"longevity","f":"C13H16N2O2","w":"232.28"},
-{"id":"dsip","n":"DSIP","mg":"5 MG","c":"cognitive","f":"C35H48N10O15","w":"848.8"},
-{"id":"dihexa","n":"Dihexa","mg":"8 MG","c":"cognitive","f":"","w":""},
-{"id":"pe2228","n":"PE-22-28","mg":"10 MG","c":"cognitive","f":"","w":""},
-{"id":"vip","n":"VIP","mg":"10 MG","c":"cognitive","f":"","w":"3326.8"},
-{"id":"oxytocin","n":"Oxytocin","mg":"2 / 5 MG","c":"cognitive","f":"C43H66N12O12S2","w":"1007.19"},
-{"id":"cerebrolysin","n":"Cerebrolysin","mg":"60 MG","c":"cognitive","f":"","w":""},
-{"id":"ara290","n":"ARA-290 (Cibinetide)","mg":"8 MG","c":"immune","f":"","w":""},
-{"id":"ace031","n":"ACE-031","mg":"1 MG","c":"recovery","f":"","w":""},
-{"id":"gonadorelin","n":"Gonadorelin","mg":"2 MG","c":"gh","f":"C55H75N17O13","w":"1182.3"},
-{"id":"hcg","n":"HCG","mg":"5000 / 10000 IU","c":"gh","f":"","w":"≈ 36,700"},
-{"id":"hmg","n":"HMG","mg":"75 IU","c":"gh","f":"","w":""},
-{"id":"snap8","n":"SNAP-8","mg":"10 MG","c":"skin","f":"C49H73N13O18","w":"1075.2"},
-{"id":"ahkcu","n":"AHK-Cu","mg":"100 MG","c":"skin","f":"","w":""},
-{"id":"hyaluronic","n":"Hyaluronic Acid","mg":"5 MG","c":"skin","f":"","w":""},
-{"id":"aicar","n":"AICAR","mg":"50 MG","c":"metabolic","f":"C9H14N4O5","w":"258.23"},
-{"id":"slupp332","n":"SLU-PP-332","mg":"5 MG","c":"metabolic","f":"C18H14N2O2","w":"290.32"},
-{"id":"amino1mq","n":"5-Amino-1MQ","mg":"5 / 10 / 50 MG","c":"metabolic","f":"C10H11N2","w":"159.21"}
+{"id": "bpc157", "n": "BPC-157", "mg": "10 MG", "c": "recovery", "f": "C62H98N16O22", "w": "1419.55", "cid": 9941957},
+{"id": "tb500", "n": "TB-500", "mg": "5 MG", "c": "recovery", "f": "C38H68N10O14", "w": "889.02", "cid": 62707662},
+{"id": "cjc1295", "n": "CJC-1295 + Ipamorelin", "mg": "5 MG", "c": "gh", "f": "", "w": ""},
+{"id": "epitalon", "n": "Epitalon", "mg": "10 MG", "c": "longevity", "f": "C14H22N4O9", "w": "390.35", "cid": 219042},
+{"id": "motsc", "n": "MOTS-c", "mg": "10 MG", "c": "metabolic", "f": "C101H152N28O22S2", "w": "2174.62", "cid": 146675088},
+{"id": "kpv", "n": "KPV", "mg": "5 MG", "c": "recovery", "f": "C16H30N4O4", "w": "342.44", "cid": 125672},
+{"id": "ll37", "n": "LL37", "mg": "5 MG", "c": "immune", "f": "", "w": "≈ 4493"},
+{"id": "ghkcu", "n": "GHK-Cu", "mg": "5 / 100 MG", "c": "skin", "f": "C14H22CuN6O4 (Cu complex)", "w": "340.4 (GHK) · Cu complex", "cid": 342538},
+{"id": "semax", "n": "SEMAX", "mg": "10 MG", "c": "cognitive", "f": "C37H51N9O10S", "w": "813.93", "cid": 122178},
+{"id": "tesamorelin", "n": "Tesamorelin", "mg": "10 MG", "c": "gh", "f": "C221H366N72O67S", "w": "5135.9", "cid": 16137828},
+{"id": "retatrutide", "n": "Retatrutide", "mg": "5 / 10 / 20 MG", "c": "metabolic", "f": "", "w": "4731.4", "d2": "Retatrutide"},
+{"id": "thymosina1", "n": "Thymosin Alpha-1", "mg": "5 / 10 MG", "c": "immune", "f": "C129H215N33O55", "w": "3108.3", "cid": 16130571},
+{"id": "mt2", "n": "MT-2 (Melanotan II)", "mg": "10 MG", "c": "melano", "f": "C50H69N15O9", "w": "1024.18", "cid": 92432},
+{"id": "mt1", "n": "MT-1 (Melanotan I)", "mg": "10 MG", "c": "melano", "f": "C78H111N21O19", "w": "1646.87", "cid": 16197727},
+{"id": "pt141", "n": "PT-141 (Bremelanotide)", "mg": "10 MG", "c": "melano", "f": "C50H68N14O10", "w": "1025.2", "cid": 9941379},
+{"id": "ghrp2", "n": "GHRP-2", "mg": "10 MG", "c": "gh", "f": "C45H55N9O6", "w": "817.96", "cid": 6918245},
+{"id": "ghrp6", "n": "GHRP-6", "mg": "10 MG", "c": "gh", "f": "C46H56N12O6", "w": "873.01", "cid": 4345065},
+{"id": "ipamorelin", "n": "Ipamorelin", "mg": "10 MG", "c": "gh", "f": "C38H49N9O5", "w": "711.86", "cid": 20754357},
+{"id": "hgh", "n": "HGH 191AA (Somatropin)", "mg": "15 IU", "c": "gh", "f": "", "w": "≈ 22,124 Da"},
+{"id": "igf1", "n": "IGF-1 LR3", "mg": "0.1 MG", "c": "gh", "f": "C400H625N111O115S9", "w": "9117.6"},
+{"id": "kisspeptin", "n": "Kisspeptin-10", "mg": "10 MG", "c": "gh", "f": "", "w": "≈ 1302.5", "cid": 25240297},
+{"id": "selank", "n": "Selank", "mg": "10 / 30 MG", "c": "cognitive", "f": "C33H57N11O9", "w": "751.9", "cid": 11765600},
+{"id": "glutathione", "n": "Glutathione", "mg": "600 MG", "c": "longevity", "f": "C10H17N3O6S", "w": "307.32", "cid": 124886},
+{"id": "bacwater", "n": "Bacteriostatic Water", "mg": "3 / 10 ML", "c": "ancillary", "f": "", "w": ""},
+{"id": "lemonbottle", "n": "Lemon Bottle", "mg": "10 ML", "c": "ancillary", "f": "", "w": ""},
+{"id": "semaglutide", "n": "Semaglutide", "mg": "5 / 10 / 15 / 20 / 30 MG", "c": "metabolic", "f": "C187H291N45O59", "w": "4113.64", "d2": "Semaglutide"},
+{"id": "tirzepatide", "n": "Tirzepatide", "mg": "5 - 120 MG", "c": "metabolic", "f": "C225H348N48O68", "w": "4813.5", "d2": "Tirzepatide"},
+{"id": "cagrilintide", "n": "Cagrilintide", "mg": "5 / 10 MG", "c": "metabolic", "f": "C194H312N54O59S2", "w": "4396", "d2": "Cagrilintide"},
+{"id": "survodutide", "n": "Survodutide", "mg": "10 MG", "c": "metabolic", "f": "C192H289N47O61", "w": "4231.7", "d2": "Survodutide"},
+{"id": "mazdutide", "n": "Mazdutide", "mg": "5 / 10 MG", "c": "metabolic", "f": "", "w": ""},
+{"id": "aod9604", "n": "AOD-9604", "mg": "2 / 5 / 10 MG", "c": "metabolic", "f": "C78H123N23O23S2", "w": "1815.10", "cid": 71300630},
+{"id": "adipotide", "n": "Adipotide (FTPP)", "mg": "5 MG", "c": "metabolic", "f": "", "w": ""},
+{"id": "sermorelin", "n": "Sermorelin", "mg": "5 / 10 MG", "c": "gh", "f": "C149H246N44O42S", "w": "3357.9", "cid": 16132413},
+{"id": "hexarelin", "n": "Hexarelin", "mg": "5 MG", "c": "gh", "f": "C47H58N12O6", "w": "887.0", "cid": 6918297},
+{"id": "cjc1295dac", "n": "CJC-1295 (DAC)", "mg": "2 / 5 MG", "c": "gh", "f": "C165H269N51O50", "w": "3647.1"},
+{"id": "mgf", "n": "MGF", "mg": "2 MG", "c": "gh", "f": "", "w": ""},
+{"id": "pegmgf", "n": "PEG-MGF", "mg": "2 MG", "c": "gh", "f": "", "w": ""},
+{"id": "igfdes", "n": "IGF-DES", "mg": "2 MG", "c": "gh", "f": "", "w": ""},
+{"id": "hghfrag", "n": "HGH Fragment 176-191", "mg": "5 MG", "c": "gh", "f": "", "w": "1817.1"},
+{"id": "nadplus", "n": "NAD+", "mg": "100 / 500 / 1000 MG", "c": "longevity", "f": "C21H27N7O14P2", "w": "663.43", "cid": 5892},
+{"id": "ss31", "n": "SS-31 (Elamipretide)", "mg": "10 / 50 MG", "c": "longevity", "f": "C32H49N9O5", "w": "639.8", "cid": 11764719},
+{"id": "foxo4", "n": "FOXO4-DRI", "mg": "10 MG", "c": "longevity", "f": "", "w": ""},
+{"id": "thymalin", "n": "Thymalin", "mg": "10 MG", "c": "longevity", "f": "", "w": ""},
+{"id": "pinealon", "n": "Pinealon", "mg": "5 / 10 / 20 MG", "c": "longevity", "f": "", "w": ""},
+{"id": "vilon", "n": "Vilon", "mg": "20 MG", "c": "longevity", "f": "", "w": ""},
+{"id": "melatonin", "n": "Melatonin", "mg": "10 MG", "c": "longevity", "f": "C13H16N2O2", "w": "232.28", "cid": 896},
+{"id": "dsip", "n": "DSIP", "mg": "5 MG", "c": "cognitive", "f": "C35H48N10O15", "w": "848.8", "cid": 68816},
+{"id": "dihexa", "n": "Dihexa", "mg": "8 MG", "c": "cognitive", "f": "", "w": "", "cid": 129010512},
+{"id": "pe2228", "n": "PE-22-28", "mg": "10 MG", "c": "cognitive", "f": "", "w": ""},
+{"id": "vip", "n": "VIP", "mg": "10 MG", "c": "cognitive", "f": "", "w": "3326.8"},
+{"id": "oxytocin", "n": "Oxytocin", "mg": "2 / 5 MG", "c": "cognitive", "f": "C43H66N12O12S2", "w": "1007.19", "cid": 439302},
+{"id": "cerebrolysin", "n": "Cerebrolysin", "mg": "60 MG", "c": "cognitive", "f": "", "w": ""},
+{"id": "ara290", "n": "ARA-290 (Cibinetide)", "mg": "8 MG", "c": "immune", "f": "", "w": ""},
+{"id": "ace031", "n": "ACE-031", "mg": "1 MG", "c": "recovery", "f": "", "w": ""},
+{"id": "gonadorelin", "n": "Gonadorelin", "mg": "2 MG", "c": "gh", "f": "C55H75N17O13", "w": "1182.3"},
+{"id": "hcg", "n": "HCG", "mg": "5000 / 10000 IU", "c": "gh", "f": "", "w": "approx 36700"},
+{"id": "hmg", "n": "HMG", "mg": "75 IU", "c": "gh", "f": "", "w": ""},
+{"id": "snap8", "n": "SNAP-8", "mg": "10 MG", "c": "skin", "f": "C49H73N13O18", "w": "1075.2"},
+{"id": "ahkcu", "n": "AHK-Cu", "mg": "100 MG", "c": "skin", "f": "", "w": ""},
+{"id": "hyaluronic", "n": "Hyaluronic Acid", "mg": "5 MG", "c": "skin", "f": "", "w": ""},
+{"id": "aicar", "n": "AICAR", "mg": "50 MG", "c": "metabolic", "f": "C9H14N4O5", "w": "258.23", "cid": 17513},
+{"id": "slupp332", "n": "SLU-PP-332", "mg": "5 MG", "c": "metabolic", "f": "C18H14N2O2", "w": "290.32", "cid": 5338394},
+{"id": "amino1mq", "n": "5-Amino-1MQ", "mg": "5 / 10 / 50 MG", "c": "metabolic", "f": "C10H11N2 (cation)", "w": "159.21", "cid": 950107}
 ];
 
-/* static WA links */
+/* contact links */
 var GENERIC="שלום פפטידים ישראל, אשמח לפרטים, מחירים וזמינות.";
-["navWa","heroWa","waFloat"].forEach(function(id){document.getElementById(id).href=waLink(GENERIC);});
-var fw=document.getElementById("footWa");fw.href=waLink(GENERIC);fw.lastChild.textContent=" WhatsApp 050-678-7586";
-var ft=document.getElementById("footTel");ft.href="tel:+972506787586";ft.textContent="התקשרו · 050-678-7586";
+["navWa","heroWa"].forEach(function(id){document.getElementById(id).href=waLink(GENERIC);});
+var fw=document.getElementById("footWa");fw.href=waLink(GENERIC);fw.querySelector("span").textContent="WhatsApp "+DISP;
+var ft=document.getElementById("footTel");ft.href="tel:"+TEL;ft.textContent="התקשרו · "+DISP;
 document.getElementById("yr").textContent=new Date().getFullYear();
 document.getElementById("readCount").textContent=P.length+" COMPOUNDS";
 
@@ -345,15 +385,33 @@ document.getElementById("readCount").textContent=P.length+" COMPOUNDS";
 var tickItems=['טוהר <b>≥ 98%</b>','אימות <b>HPLC</b>','<b>MASS-SPEC</b> אומת','<b>COA</b> לכל אצווה','אבקה <b>מיובשת בהקפאה</b>','אחסון <b>−20°C</b>','<b>'+P.length+'</b> מתחמים','משלוח <b>דיסקרטי</b>','<b>RESEARCH USE ONLY</b>'];
 document.getElementById("tick").innerHTML=(tickItems.concat(tickItems)).map(function(s){return '<span>'+s+'</span>';}).join("");
 
-/* hexagon watermark */
 var HEX='<svg class="wm" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3"><path d="M50 8l36 21v42L50 92 14 71V29z"/><circle cx="50" cy="50" r="15"/><path d="M50 8v21M86 29 66 41M86 71 66 59M50 92V71M14 71l20-12M14 29l20 12"/></svg>';
+function prodById(id){for(var i=0;i<P.length;i++)if(P[i].id===id)return P[i];return null;}
+function struct2d(p){var src="";
+ if(p.cid)src="https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/"+p.cid+"/PNG?image_size=340x230";
+ else if(p.d2)src="https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/"+encodeURIComponent(p.d2)+"/PNG?image_size=340x230";
+ if(!src)return "";
+ return '<div class="struct"><span class="s2dl">2D · PUBCHEM</span><img loading="lazy" src="'+src+'" alt="" onerror="var s=this.closest(&quot;.struct&quot;);if(s)s.remove();"></div>';}
 
-/* render */
+/* ---- cart ---- */
+var cart={};try{cart=JSON.parse(localStorage.getItem("pep_cart")||"{}")||{};}catch(e){}
+function saveCart(){try{localStorage.setItem("pep_cart",JSON.stringify(cart));}catch(e){}}
+function cartCount(){var n=0;for(var k in cart)n+=cart[k];return n;}
+function setQty(id,q){if(q<=0)delete cart[id];else cart[id]=q;saveCart();render();renderCart();}
+function cartMsg(){var lines=[];for(var k in cart){var p=prodById(k);if(p)lines.push("• "+p.n+" ("+p.mg+") × "+cart[k]);}
+ if(!lines.length)return GENERIC;
+ return 'שלום פפטידים ישראל, אשמח להזמין:\n'+lines.join('\n')+'\n\nסה"כ פריטים: '+cartCount()+'\nמה המחיר והזמינות?';}
+
+/* ---- render catalog ---- */
 var state={cat:"all",q:""};
 var pills=document.getElementById("pills");
 pills.innerHTML=CATS.map(function(c){return '<button class="pill'+(c.id==="all"?" on":"")+'" data-cat="'+c.id+'">'+c.he+'</button>';}).join("");
 pills.querySelectorAll(".pill").forEach(function(b){b.onclick=function(){state.cat=b.getAttribute("data-cat");pills.querySelectorAll(".pill").forEach(function(x){x.classList.toggle("on",x===b);});render();};});
 document.getElementById("q").addEventListener("input",function(){state.q=this.value.toLowerCase().trim();render();});
+
+function ctrlHTML(p){var q=cart[p.id]||0;
+ if(q>0)return '<div class="step"><button class="sx" data-dec="'+p.id+'">−</button><span class="sq">'+q+'</span><button class="sx" data-inc="'+p.id+'">+</button><span class="sin">בסל</span></div>';
+ return '<button class="add" data-add="'+p.id+'"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 6v12M6 12h12"/></svg>הוסף לסל</button>';}
 
 function render(){
  var grid=document.getElementById("grid");
@@ -361,20 +419,54 @@ function render(){
  document.getElementById("count").textContent="["+list.length+" / "+P.length+"] מתחמים";
  if(!list.length){grid.innerHTML='<div class="empty">לא נמצאו תוצאות. נסו חיפוש אחר או דברו איתנו בוואטסאפ.</div>';return;}
  grid.innerHTML=list.map(function(p){
-  var msg="שלום פפטידים ישראל, מעוניין/ת להזמין: "+p.n+" ("+p.mg+"). מה המחיר והזמינות?";
-  var rows='';
+  var rows="";
   if(p.f)rows+='<div class="d"><span class="key">MF</span><span class="val">'+fmt(p.f)+'</span></div>';
   if(p.w)rows+='<div class="d"><span class="key">MW</span><span class="val">'+mwShort(p.w)+'</span></div>';
   rows+='<div class="d"><span class="key">SIZE</span><span class="val">'+p.mg+'</span></div>';
   var pur=p.c==="ancillary"?'':'<span class="pur">≥98%</span>';
   return '<article class="spec">'+HEX+'<div class="spec-top"><span class="tag">'+(CATHE[p.c]||"")+'</span>'+pur+'</div>'+
-   '<h3>'+p.n+'</h3><div class="data">'+rows+'</div>'+
-   '<a class="order" href="'+waLink(msg)+'" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M.05 24l1.7-6.2A11.9 11.9 0 1112 24a11.9 11.9 0 01-6-1.6L.05 24zM6.6 20.1l.4.2a9.9 9.9 0 005 1.4 9.9 9.9 0 10-9.9-9.9c0 1.8.5 3.5 1.4 5l.3.4-1 3.7 3.8-1z"/></svg>הזמן בוואטסאפ</a></article>';
+   struct2d(p)+'<h3>'+p.n+'</h3><div class="data">'+rows+'</div>'+ctrlHTML(p)+'</article>';
  }).join("");
 }
-render();
+/* delegate add/inc/dec on grid */
+document.getElementById("grid").addEventListener("click",function(e){
+ var t=e.target.closest("[data-add],[data-inc],[data-dec]");if(!t)return;
+ if(t.hasAttribute("data-add"))setQty(t.getAttribute("data-add"),(cart[t.getAttribute("data-add")]||0)+1);
+ else if(t.hasAttribute("data-inc")){var id=t.getAttribute("data-inc");setQty(id,(cart[id]||0)+1);}
+ else if(t.hasAttribute("data-dec")){var id2=t.getAttribute("data-dec");setQty(id2,(cart[id2]||0)-1);}
+});
 
-/* hero molecular network canvas */
+/* ---- render cart fab + drawer ---- */
+function renderCart(){
+ var n=cartCount();
+ var fab=document.getElementById("cartFab");fab.classList.toggle("empty",n===0);
+ document.getElementById("cbadge").textContent=n;
+ document.getElementById("dCount").textContent=n?("("+n+")"):"";
+ var box=document.getElementById("citems");
+ var keys=Object.keys(cart);
+ if(!keys.length){box.innerHTML='<div class="cart-empty">הסל ריק.<br>הוסיפו מתחמים מהקטלוג כדי לשלוח הזמנה.</div>';}
+ else{box.innerHTML=keys.map(function(id){var p=prodById(id);if(!p)return "";return '<div class="citem"><div class="ci-n"><b>'+p.n+'</b><small>'+p.mg+'</small></div>'+
+   '<div class="step"><button class="sx" data-dec="'+id+'">−</button><span class="sq">'+cart[id]+'</span><button class="sx" data-inc="'+id+'">+</button></div>'+
+   '<button class="crm" data-rm="'+id+'" aria-label="הסר">&times;</button></div>';}).join("");}
+ document.getElementById("cartSend").href=waLink(cartMsg());
+}
+document.getElementById("citems").addEventListener("click",function(e){
+ var t=e.target.closest("[data-inc],[data-dec],[data-rm]");if(!t)return;
+ if(t.hasAttribute("data-inc")){var a=t.getAttribute("data-inc");setQty(a,(cart[a]||0)+1);}
+ else if(t.hasAttribute("data-dec")){var b=t.getAttribute("data-dec");setQty(b,(cart[b]||0)-1);}
+ else if(t.hasAttribute("data-rm"))setQty(t.getAttribute("data-rm"),0);
+});
+var overlay=document.getElementById("overlay");
+function openCart(){renderCart();overlay.classList.add("show");}
+function closeCart(){overlay.classList.remove("show");}
+document.getElementById("cartFab").onclick=openCart;
+document.getElementById("dClose").onclick=closeCart;
+document.getElementById("dClear").onclick=function(){cart={};saveCart();render();renderCart();};
+overlay.addEventListener("click",function(e){if(e.target===overlay)closeCart();});
+
+render();renderCart();
+
+/* hero molecular network */
 (function(){
  var cv=document.getElementById("mol");if(!cv)return;
  var reduce=window.matchMedia&&window.matchMedia("(prefers-reduced-motion:reduce)").matches;
@@ -385,8 +477,7 @@ render();
   for(var i=0;i<N.length;i++){for(var j=i+1;j<N.length;j++){var a=N[i],b=N[j],dx=a.x-b.x,dy=a.y-b.y,d=Math.sqrt(dx*dx+dy*dy);if(d<132){ctx.strokeStyle="rgba(76,196,238,"+(0.16*(1-d/132))+")";ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();}}}
   for(var k=0;k<N.length;k++){var p=N[k];ctx.beginPath();ctx.arc(p.x,p.y,2.1,0,6.283);ctx.fillStyle="rgba(150,200,235,.65)";ctx.fill();}}
  function step(){for(var i=0;i<N.length;i++){var p=N[i];p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1;}draw();raf=requestAnimationFrame(step);}
- init();
- if(reduce){draw();}else{cancelAnimationFrame(raf);step();}
+ init();if(reduce){draw();}else{cancelAnimationFrame(raf);step();}
  var to;window.addEventListener("resize",function(){clearTimeout(to);to=setTimeout(function(){init();if(reduce)draw();},180);});
  document.addEventListener("visibilitychange",function(){if(document.hidden){cancelAnimationFrame(raf);raf=0;}else if(!reduce&&!raf){step();}});
 })();
