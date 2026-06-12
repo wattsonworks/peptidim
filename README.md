@@ -18,7 +18,7 @@ data arrays, done.
 | **Plain-Hebrew effect description** per peptide (RUO-safe phrasing) | `DESC = {…}` object |
 | Descriptions shown **on the card, in the basket, and inside both WhatsApp messages** | `render()`, `renderCart()`, `cartLinesText()` |
 | **Prices** (₪ ILS) with per-size variants, live subtotal/discount/total | `P = [{… v:[{s,p}] }]` + `discountInfo()` |
-| **Coupon codes** (incl. birthday **BDAY25 = 25%**) entered on-site | `CONFIG.COUPONS` |
+| **Coupon codes** (percentage discounts) entered on-site | `CONFIG.COUPONS` |
 | **Referral / agent tracking** — code auto-fills agent + free "agent name" field | `CONFIG.COUPONS[x].agent` + `#agentIn` |
 | **Mandatory customer capture** (name, phone, email, address) on every order | checkout modal `#checkout` |
 | **Fulfillment**: משלוח / איסוף עצמי / קריפטו + "תוך 24 שעות" promise | `#ful` radios |
@@ -53,8 +53,8 @@ Edit the `DESC = {…}` object (keyed by product `id`). Keep them research-frame
 
 ```js
 CONFIG.COUPONS = {
-  "BDAY25":      { pct:25, label:"יום הולדת 🎂" },        // birthday 25% off
   "WELCOME10":   { pct:10, label:"לקוח חדש" },
+  "VIP15":       { pct:15, label:"VIP" },
   "AGENT-DAVID": { pct:10, label:"הפניית סוכן", agent:"דוד" } // referral: discounts + tags the agent
 };
 ```
